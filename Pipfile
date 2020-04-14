@@ -6,7 +6,6 @@ verify_ssl = true
 [dev-packages]
 nose = "*"
 
-
 [packages]
 keras = "*"
 tensorflow = "*"

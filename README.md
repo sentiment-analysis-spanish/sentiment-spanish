@@ -3,8 +3,16 @@
 
 [![PyPI version](https://badge.fury.io/py/sentiment_analysis_spanish.svg)](https://badge.fury.io/py/sentiment_analysis_spanish)
 
+First to install the package
 
+```
+pip install sentiment-analysis-spanish
+```
+You will also need keras and tensorflow
 
+```
+pip install keras tensorflow
+```
 
 Import the package
 

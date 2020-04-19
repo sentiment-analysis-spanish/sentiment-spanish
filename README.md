@@ -33,5 +33,5 @@ print(sentiment.sentiment("me gusta la tombola es genial"))
 you will see that it outputs 
 
 ```
-0
+1
 ```

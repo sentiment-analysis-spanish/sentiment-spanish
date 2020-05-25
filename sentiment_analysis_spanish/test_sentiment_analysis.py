@@ -5,9 +5,9 @@ class TestSentimentAnalysis(unittest.TestCase):
         
     def test_sum(self):
         sentiment = SentimentAnalysisSpanish()
-        test_sentences_positive = ["prados bellos y alegres a mi alrededor, viva la vida", "me encantan los gatos y cantar, disfruto mucho", "que buena noticia me alegro"]
+        test_sentences_positive = ["prados bellos y alegres a mi alrededor, felicidad, viva la vida", "me encantan los gatos y cantar, disfruto mucho", "que buena noticia me alegro"]
 
-        test_sentences_negative = ["estoy muy enfadado y no quiero hablar", "me parece terrible esto que me estás diciendo", "fuera de aquí no quiero verte"]
+        test_sentences_negative = ["estoy muy enfadado y molesto y no quiero hablar", "me parece terrible esto que me estás diciendo", "fuera de aquí no quiero verte"]
 
         for text in test_sentences_positive:
             print(text)

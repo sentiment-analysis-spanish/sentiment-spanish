@@ -27,7 +27,7 @@ class SentimentAnalysisSpanish:
         self.loaded_model = model_from_json(loaded_model_json)
 
         # load weights into new model
-        self.loaded_model.load_weights(self.parent_path / "saved_model/model.h5")
+        self.loaded_model.load_weights(str(self.parent_path / "saved_model/model.h5"))
 
         # evaluate loaded model on test data
         self.loaded_model.compile(optimizer='adam', loss='mean_squared_error',  metrics=['mae','accuracy'])

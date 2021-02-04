@@ -2,5 +2,6 @@ recursive-include saved_model *
 recursive-include sentiment_analysis_spanish *
 
 recursive-include *.pickle
+recursive-include *.pbz2
 recursive-include *.h5
 recursive-include *.json

@@ -7,8 +7,9 @@ verify_ssl = true
 nose = "*"
 
 [packages]
-keras = "*"
-tensorflow = "*"
+sklearn = "*"
+pandas = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.7"
